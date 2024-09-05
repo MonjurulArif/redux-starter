@@ -1,2 +1,2 @@
-console.log("Hello JavaScritp");
+console.log("JavaScript"); 
  
