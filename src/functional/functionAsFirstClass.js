@@ -13,7 +13,7 @@ function greet(fnMessage){
 greet(sayHello);
 //Output:
 // From greet:  Hello World1
-console.log("First: ",greet(sayHello));
+console.log("First: ",greet(sayHello)); 
 //Output:
 // From greet:  Hello World1
 // First: undefined
