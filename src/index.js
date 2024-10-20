@@ -1,2 +1,19 @@
+import store from "./store";
 
-console.log("JavaScript"); 
+console.log('store:', store);
+
+store.dispatch({
+  type: "bugAdded",
+  payload: {
+    description: "Bug1"
+  }
+});
+
+store.dispatch({
+  type: "bugRemoved",
+  payload: {
+    id: 1
+  }
+});
+
+console.log('store.getState():', store.getState());
