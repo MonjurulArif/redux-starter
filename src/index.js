@@ -1,7 +1,5 @@
-import store from "./store";
-import { bugAdded, bugResolved} from "./actions";
+import store from './customStore';
 
-store.dispatch(bugAdded("Bug 1")); 
-store.dispatch(bugResolved(1));
 
-console.log('store.getState():', store.getState());
+store.state = 1;
+console.log("Store",store);
